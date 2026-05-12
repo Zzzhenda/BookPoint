@@ -5,7 +5,7 @@ API REST para BookPoint Chile.
 ## Integrantes
 
 - VICTOR GUTIERREZ 
-- BENJAMIN
+- BENJAMIN FIGUEROA
 
 
 ## Tecnologias
