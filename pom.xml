@@ -11,7 +11,8 @@
 	<groupId>com.bookpoint</groupId>
 	<artifactId>bk</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
+	<packaging>pom</packaging>
+	<name>bk</name>
 	<description/>
 	<url/>
 	<licenses>
@@ -30,6 +31,17 @@
 		<java.version>17</java.version>
 		<spring-cloud.version>2025.1.2</spring-cloud.version>
 	</properties>
+	<modules>
+		<module>gateway</module>
+		<module>ms-clientes</module>
+		<module>ms-productos</module>
+		<module>ms-inventario</module>
+		<module>ms-carrito</module>
+		<module>ms-pedidos</module>
+		<module>ms-ventas</module>
+		<module>ms-despachos</module>
+		<module>ms-sucursales</module>
+	</modules>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

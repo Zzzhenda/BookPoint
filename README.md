@@ -141,7 +141,7 @@ Las pruebas unitarias no requieren que MySQL esté en ejecución.
 ## Notas técnicas
 
 - El gateway utiliza Spring Cloud 2025.1.2 con el starter spring-cloud-starter-gateway-server-webflux, que
-  es la versión compatible con Spring Boot 4. Las rutas se configuran en application.properties con el
+  es la versión compatible con Spring Boot 4. Las rutas se configuran en application.yaml con el
   prefijo spring.cloud.gateway.server.webflux.routes.
 - La configuración de conexión a la base de datos apunta a la instalación por defecto de XAMPP (usuario
   root sin contraseña). Si su MySQL tiene contraseña, debe actualizarse en el application.properties de
