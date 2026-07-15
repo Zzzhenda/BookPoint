@@ -11,7 +11,7 @@ import java.util.Optional;
 
 /**
  * Cliente que consume ms-pedidos para validar el pedido y obtener su total.
- * GET /api/pedidos/{id} -> Optional<PedidoDTO>.
+ * GET /api/pedidos/{id} 
  */
 @Slf4j
 @Component
